@@ -1,0 +1,27 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: service-oss
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+# 阿里云OSS
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-chengdu.aliyuncs.com
+      keyid: LTAI5tEMjAJTCQT4fjZAoX6h
+      keysecret: YdxTNVmdDKvYUn4d5dbWkmgTL4CnC7
+      bucketname: online-education-star-file-chengdu
+      imagedirectoryname: images
+      videodirectoryname: videos

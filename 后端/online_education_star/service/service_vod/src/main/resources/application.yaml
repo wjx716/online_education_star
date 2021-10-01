@@ -1,0 +1,21 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: service-vod
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+aliyun:
+  vod:
+    regionid: cn-shanghai
+    accesskeyid: # 因为此I和Secret 涉及我的阿里云账户的完全读写权限，所以在提交源码的时候，进行了删除！
+    accesskeysecret: # 因为此I和Secret 涉及我的阿里云账户的完全读写权限，所以在提交源码的时候，进行了删除！

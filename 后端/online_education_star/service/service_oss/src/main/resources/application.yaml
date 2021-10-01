@@ -1,0 +1,27 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: service-oss
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+# 阿里云OSS
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-chengdu.aliyuncs.com
+      keyid: # 因为此I和Secret 涉及我的阿里云账户的完全读写权限，所以在提交源码的时候，进行了删除！
+      keysecret: # 因为此I和Secret 涉及我的阿里云账户的完全读写权限，所以在提交源码的时候，进行了删除！
+      bucketname: online-education-star-file-chengdu
+      imagedirectoryname: images
+      videodirectoryname: videos

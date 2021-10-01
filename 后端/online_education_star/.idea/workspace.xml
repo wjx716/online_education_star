@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecdb75bb-4aae-47f2-8141-ea0b60520662" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/service/service_edu/src/main/java/indiv/peter/serviceedu/controller/EduTeacherController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/service/service_edu/src/main/java/indiv/peter/serviceedu/controller/EduCourseController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/service/service_edu/src/main/java/indiv/peter/serviceedu/entity/vo/CourseInfoForm.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/service/service_edu/src/main/java/indiv/peter/serviceedu/entity/vo/CoursePublishVo.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\apache-maven-3.6.3\maven_localRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+  </component>
+  <component name="ProjectId" id="1y1yRLEU1YPWSviDAecNKs4KmbN" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service_wxlogin/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16821465" />
+    <property name="project.structure.side.proportion" value="0.18733273" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My\StudySpace\Java\online_education_star\service\service_wxlogin\src\main\resources" />
+      <recent name="D:\My\StudySpace\Java\online_education_star\service\service_wxlogin\src\test\java" />
+      <recent name="D:\My\StudySpace\Java\online_education_star\service\service_edu\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="indiv.peter.serviceedu.api" />
+      <recent name="indiv.peter.servicewxlogin" />
+      <recent name="indiv.peter.servicecms.api" />
+      <recent name="indiv.peter.servicecms" />
+      <recent name="indiv.peter.servicevod.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EduApplication">
+    <configuration name="CodeGenerator.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service_wxlogin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="indiv.peter.servicewxlogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="indiv.peter.servicewxlogin" />
+      <option name="MAIN_CLASS_NAME" value="indiv.peter.servicewxlogin.CodeGenerator" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service_cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="indiv.peter.servicecms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="indiv.peter.servicecms.CmsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service_edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="indiv.peter.serviceedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="indiv.peter.serviceedu.EduApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service_oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="indiv.peter.serviceoss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="indiv.peter.serviceoss.OssApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service_vod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="indiv.peter.servicevod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="indiv.peter.servicevod.VodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CodeGenerator.run" />
+      <item itemvalue="Spring Boot.EduApplication" />
+      <item itemvalue="Spring Boot.OssApplication" />
+      <item itemvalue="Spring Boot.VodApplication" />
+      <item itemvalue="Spring Boot.CmsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CodeGenerator.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecdb75bb-4aae-47f2-8141-ea0b60520662" name="Changes" comment="" />
+      <created>1631433382894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631433382894</updated>
+      <workItem from="1631433387083" duration="1754000" />
+      <workItem from="1631435172762" duration="2143000" />
+      <workItem from="1631437343813" duration="981000" />
+      <workItem from="1631493916468" duration="1375000" />
+      <workItem from="1631495318143" duration="552000" />
+      <workItem from="1631495886542" duration="417000" />
+      <workItem from="1631496316153" duration="7866000" />
+      <workItem from="1631521405499" duration="5681000" />
+      <workItem from="1631580201773" duration="10268000" />
+      <workItem from="1631597808220" duration="4169000" />
+      <workItem from="1631670372295" duration="695000" />
+      <workItem from="1631762963739" duration="776000" />
+      <workItem from="1631766690918" duration="7265000" />
+      <workItem from="1631839605113" duration="1527000" />
+      <workItem from="1631845172993" duration="5139000" />
+      <workItem from="1631857652005" duration="3134000" />
+      <workItem from="1631863815161" duration="4541000" />
+      <workItem from="1631875485237" duration="2449000" />
+      <workItem from="1631927087140" duration="2341000" />
+      <workItem from="1632032722686" duration="183000" />
+      <workItem from="1632032984783" duration="17289000" />
+      <workItem from="1632100357182" duration="11037000" />
+      <workItem from="1632116411815" duration="11204000" />
+      <workItem from="1632185917807" duration="10116000" />
+      <workItem from="1632220071065" duration="8924000" />
+      <workItem from="1632271908176" duration="8699000" />
+      <workItem from="1632289265738" duration="13371000" />
+      <workItem from="1632358400999" duration="8959000" />
+      <workItem from="1632373652410" duration="12071000" />
+      <workItem from="1632444129353" duration="5355000" />
+      <workItem from="1632457090163" duration="7852000" />
+      <workItem from="1632529731314" duration="13335000" />
+      <workItem from="1632619062823" duration="16392000" />
+      <workItem from="1632703248704" duration="595000" />
+      <workItem from="1632721860861" duration="7593000" />
+      <workItem from="1632736612478" duration="9257000" />
+      <workItem from="1632789646421" duration="9092000" />
+      <workItem from="1632819571719" duration="5666000" />
+      <workItem from="1632877042728" duration="1344000" />
+      <workItem from="1632878772003" duration="4986000" />
+      <workItem from="1632893072155" duration="4475000" />
+      <workItem from="1632961980119" duration="754000" />
+      <workItem from="1633057027901" duration="2444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

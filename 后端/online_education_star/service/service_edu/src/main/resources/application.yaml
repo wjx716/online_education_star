@@ -1,0 +1,41 @@
+server:
+  port: 8001 # 端口号
+
+spring:
+  application:
+    name: service-edu # 服务名
+  profiles:
+    active: dev # 环境设置：dev、test、prod
+  datasource: # mysql 数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/online_education_star
+    username: root
+    password: 132639
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss # 返回json的全局时间格式
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # nacos 地址端口
+
+# 开启熔断机制
+feign:
+  hystrix:
+    enabled: true
+
+# hystrix的超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # mysql 日志
+  mapper-locations: classpath:indiv/peter/serviceedu/mapper/xml/*.xml # 配置mapper xml文件的路径
+
+#logging:
+#  level: debug # debug级别

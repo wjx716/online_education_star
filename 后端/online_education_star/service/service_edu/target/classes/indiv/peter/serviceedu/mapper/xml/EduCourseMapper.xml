@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="indiv.peter.serviceedu.mapper.EduCourseMapper">
+
+    <select id="getCoursePublishById" resultType="indiv.peter.serviceedu.entity.vo.CoursePublishVo">
+        SELECT ec.id,
+               ec.title      AS courseTitle,
+               ec.price      AS coursePrice,
+               ec.cover      AS courseCover,
+               ec.lesson_num AS courseLessonNum,
+               et.name       AS teacherName,
+               es_p.title    AS parentSubjectTitle,
+               es_c.title    AS childSubjectTitle
+        FROM edu_course ec
+                 INNER JOIN edu_teacher et ON ec.teacher_id = et.id
+                 INNER JOIN edu_subject es_p ON ec.subject_parent_id = es_p.id
+                 INNER JOIN edu_subject es_c ON ec.subject_id = es_c.id
+        WHERE ec.id = #{id}
+    </select>
+
+    <select id="getCourseDetailById" resultType="indiv.peter.serviceedu.entity.vo.CourseDetailVo">
+        SELECT ec.id,
+               ec.title,
+               ec.price,
+               ec.lesson_num AS lessonNum,
+               ec.cover,
+               ec.buy_count  AS buyCount,
+               ec.view_count AS viewCount,
+               ecd.description,
+               et.id         AS teacherId,
+               et.name       AS teacherName,
+               et.intro,
+               et.avatar
+        FROM edu_course ec
+                 INNER JOIN edu_course_description ecd ON ec.id = ecd.id
+                 INNER JOIN edu_teacher et ON ec.teacher_id = et.id
+        WHERE ec.status = 'Normal'
+          AND ec.id = #{id}
+    </select>
+
+</mapper>
